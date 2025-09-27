@@ -38,18 +38,25 @@ app.get('/health', (req, res) => {
     version: process.env.npm_package_version || '1.0.0'
   });
 });
-
 // Error handling
-app.use((err, req, res, next) => {
+// Error handling
+app.use((err, req, res, _next) =>{
+  // eslint-disable-next-line no-console
   console.error(err.stack);
   res.status(500).json({ error: 'Something went wrong!' });
+  // Call next() if you want to pass to default Express error handler
+  // next(err); // Uncomment if needed
 });
+
 
 // Start server
 if (require.main === module) {
   app.listen(PORT, () => {
+    // eslint-disable-next-line no-console
     console.log(`🚀 Server running on port ${PORT}`);
   });
 }
+
+
 
 module.exports = app;

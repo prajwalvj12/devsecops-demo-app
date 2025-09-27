@@ -1,9 +1,9 @@
 # DevSecOps Demo Application 🛡️
 
-![CI/CD Pipeline](https://github.com/YOUR_USERNAME/devsecops-demo-app/workflows/DevSecOps%20Security%20Pipeline/badge.svg)
-![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=security_rating)
-![Coverage](https://codecov.io/gh/YOUR_USERNAME/devsecops-demo-app/branch/main/graph/badge.svg)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/devsecops-demo-app)
+![CI/CD Pipeline](https://github.com/prajwalvj12/devsecops-demo-app/workflows/DevSecOps%20Security%20Pipeline/badge.svg)
+![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=prajwalvj12_devsecops-demo-app&metric=security_rating)
+![Coverage](https://codecov.io/gh/prajwalvj12/devsecops-demo-app/branch/main/graph/badge.svg)
+![License](https://img.shields.io/github/license/prajwalvj12/devsecops-demo-app)
 ![Node Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen)
 
 A comprehensive DevSecOps implementation demonstrating automated security testing and CI/CD best practices.
